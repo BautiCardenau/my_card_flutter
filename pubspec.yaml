@@ -22,5 +22,14 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-regular.ttf
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-regular.ttf
+
   assets:
     - images/
