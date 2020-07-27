@@ -44,26 +44,21 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
                 child: Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.local_phone,
+                  padding: const EdgeInsets.all(8.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.phone,
+                      color: Colors.teal.shade900,
+                      size: 30,
+                    ),
+                    title: Text(
+                      '+ 54 9 1126826386',
+                      style: TextStyle(
+                        fontSize: 25,
                         color: Colors.teal.shade900,
-                        size: 30,
+                        fontFamily: "SourceSansPro",
                       ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
-                        '+54 9 11 26826386',
-                        style: TextStyle(
-                          fontSize: 28,
-                          color: Colors.teal.shade900,
-                          fontFamily: "SourceSansPro",
-                        ),
-                      ),
-                    ],
+                    ),
                   ),
                 ),
               ),
@@ -71,18 +66,14 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
                 child: Padding(
-                  padding: const EdgeInsets.all(12.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
+                    padding: const EdgeInsets.all(8.0),
+                    child: ListTile(
+                      leading: Icon(
                         Icons.email,
                         color: Colors.teal.shade900,
                         size: 30,
                       ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
+                      title: Text(
                         'username@gmail.com',
                         style: TextStyle(
                           fontSize: 25,
@@ -90,9 +81,7 @@ class MyApp extends StatelessWidget {
                           fontFamily: "SourceSansPro",
                         ),
                       ),
-                    ],
-                  ),
-                ),
+                    )),
               ),
             ],
           ),
