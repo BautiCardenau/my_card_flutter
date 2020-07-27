@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 12),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: ListTile(
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 10),
+                margin: EdgeInsets.symmetric(horizontal: 25, vertical: 12),
                 child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ListTile(
@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
                       title: Text(
                         'username@gmail.com',
                         style: TextStyle(
-                          fontSize: 25,
+                          fontSize: 22,
                           color: Colors.teal.shade900,
                           fontFamily: "SourceSansPro",
                         ),
