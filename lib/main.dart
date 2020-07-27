@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -40,8 +41,14 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal.shade100,
                 ),
               ),
+              SizedBox(
+                height: 40,
+                width: 100,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
+              ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(horizontal: 25, vertical: 12),
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -63,7 +70,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                color: Colors.white,
                 margin: EdgeInsets.symmetric(horizontal: 25, vertical: 12),
                 child: Padding(
                     padding: const EdgeInsets.all(8.0),
